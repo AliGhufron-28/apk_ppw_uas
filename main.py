@@ -10,6 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score
 
 import nltk
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 import string
 from sklearn.decomposition import LatentDirichletAllocation
