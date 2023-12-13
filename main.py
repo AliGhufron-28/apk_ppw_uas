@@ -9,6 +9,7 @@ from sklearn import metrics
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score
 
+import nltk
 from nltk.tokenize import sent_tokenize
 import string
 from sklearn.decomposition import LatentDirichletAllocation
