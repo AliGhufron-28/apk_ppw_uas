@@ -20,7 +20,7 @@ st.set_page_config(
     page_title="Aplikasi Kategori Berita | Klasifikasi Berita Kompas Tv", page_icon="📰")
 
 st.title("Website Applikasi Untuk Prediksi Kategori Berita")
-st.write("app by M. Ali Ghufron")
+st.caption("app by M. Ali Ghufron")
 
 col1, col2 = st.columns(2)
 
@@ -31,31 +31,6 @@ with col1:
 with col2:
     st.image("logo-kompascom-28.png", use_column_width=True)
 
-
-# st.write("""
-# # Web Apps - Crowling Dataset
-# Applikasi Berbasis Web untuk melakukan **Sentiment Analysis**,
-# Jadi pada web applikasi ini akan bisa membantu anda untuk melakukan sentiment analysis mulai dari 
-# mengambil data (crowling dataset) dari sebuah website dan melakukan preprocessing dari data yang 
-# sudah diambil kemudian dapat melakukan klasifikasi serta dapat melihat akurasi dari model yang diinginkan.
-# ### Menu yang disediakan dapat di lihat di bawah ini :
-# """)
-
-# inisialisasi data 
-# data = pd.read_csv("ecoli.csv")
-# tab1, tab2, tab3, tab4, tab5 = st.tabs(["Crowling Data", "LDA", "Modeling", "Evaluasi", "Implementasi"])
-
-# with tab1:
-
-#     st.subheader("Deskripsi")
-#     st.write("""Crowling Data adalah proses automatis untuk mengumpulkan dan mengindeks data dari 
-#     berbagai sumber seperti situs web, database, atau dokumen. Proses ini menggunakan software atau 
-#     aplikasi khusus yang disebut "crawler" untuk mengakses sumber data dan mengambil informasi yang 
-#     dibutuhkan. Data yang dikumpulkan melalui crawling kemudian dapat diproses dan digunakan untuk 
-#     berbagai tujuan, seperti analisis data, penelitian, atau pengembangan sistem informasi. Tujuanya
-#     untuk mengumpulkan data dari berbagai sumber dan mengindeksnya sehingga mudah untuk diakses 
-#     dan dianalisis.
-#     """)
 
 # proses clean
 
@@ -89,7 +64,7 @@ def create_topic_proportion_df(X_summary, k, alpha, beta):
 st.write("""
     ### Want to learn more?
     - Dataset (studi kasus) [kompas.com](https://www.kompas.com/)
-    - Github Account [github.com](https://github.com/AliGhufron-28/datamaining)
+    - Github Account [github.com](https://github.com/AliGhufron-28/ppw_regenerate)
     """)
 data_final_sm = pd.read_csv('data_final_sm.csv')
 
